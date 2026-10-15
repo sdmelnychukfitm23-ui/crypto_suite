@@ -32,7 +32,7 @@ python cli.py verify --pubkey keys/alice_pub.pem --sig outputs/f.sig --infile da
 python cli.py encrypt-hybrid --pubkey keys/alice_pub.pem --infile data/file.txt --out outputs/h.pkg
 python cli.py decrypt-hybrid --privkey keys/alice_priv.pem --infile outputs/h.pkg
 ```
-Пароль програма запитує інтерактивно (його не видно при введенні).
+
 
 ## Структура
 ```
@@ -46,4 +46,3 @@ benchmark.py  вимірювання продуктивності (CSV + Markdow
 demo.py       автодемонстрація
 tests/        unit-тести
 ```
-Повний звіт: див. [REPORT.md](REPORT.md).
